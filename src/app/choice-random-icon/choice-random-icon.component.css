@@ -1,0 +1,32 @@
+.icon-container {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+.random-icon-button {
+  width: 300px;
+  height: 150px;
+  border-radius: 20px;
+  border: none;
+  background-color: #1976d2;
+  box-shadow: 0 8px #72b3f5;
+  cursor: pointer;
+}
+.random-icon-button:hover {
+  background-color: #1163b2;
+}
+.random-icon-button:active {
+  background-color: #125699;
+  box-shadow: 0 2px #125699;
+  transform: translateY(6px);
+}
+.random-icon {
+  color: #fff;
+  font-size: 70px;
+}
